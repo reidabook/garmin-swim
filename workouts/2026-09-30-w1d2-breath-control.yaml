@@ -1,0 +1,48 @@
+name: "W1D2 Breath Control"
+date: 2026-09-30
+pool: {length: 25, unit: yd}
+description: "Warm-up 500 + main 1300. If you can't make breathing every 4 or 5, try a few and then reduce by 1."
+steps:
+  # --- Week 1 warm-up (500) ---
+  - {type: warmup, distance: 100, stroke: free, notes: "Fins optional"}
+  - repeat: 4
+    steps:
+      - {type: warmup, lap: true, notes: "Sink down: deep breath, slowly exhale and sink to the bottom. Mouth exhale OK. Relax, be calm, enjoy being submerged. Lap when done."}
+  - repeat: 2
+    steps:
+      - {type: warmup, distance: 100, stroke: free, notes: "Exhale from the NOSE (not mouth). Carry the relaxed sink-down feeling into your swimming."}
+  - {type: drill, distance: 50, stroke: free, equipment: kickboard, notes: "Side breathing drill w/ kickboard + fins. Keep part of bottom goggle in the water, turn head to side to breathe. Side 1."}
+  - {type: drill, distance: 50, stroke: free, equipment: kickboard, notes: "Side breathing drill w/ kickboard + fins. SWAP SIDES. Bottom goggle stays in water."}
+  - {type: warmup, distance: 100, stroke: free, notes: "Breathe to the side; find the sweet spot where no water gets in your mouth."}
+  # --- Main set ---
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 2 strokes"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 3 strokes"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 4 strokes (can't make it? try a few, then drop by 1)"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 5 strokes (can't make it? try a few, then drop by 1)"}
+  - {rest: 30}
+  - {type: swim, distance: 100, stroke: free, notes: "Breathe every 2 strokes"}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 2 strokes"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 3 strokes"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 4 strokes (can't make it? try a few, then drop by 1)"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 5 strokes (can't make it? try a few, then drop by 1)"}
+  - {rest: 30}
+  - {type: swim, distance: 100, stroke: free, notes: "Breathe every 3 strokes"}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 2 strokes"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 3 strokes"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 4 strokes (can't make it? try a few, then drop by 1)"}
+  - {rest: 30}
+  - {type: drill, distance: 50, stroke: free, notes: "Breath control: breathe every 5 strokes (can't make it? try a few, then drop by 1)"}
+  - {rest: 30}
+  - {type: swim, distance: 100, stroke: free, notes: "Breathe every 4 strokes"}
+  - repeat: 4
+    steps:
+      - {type: swim, distance: 100, stroke: free, notes: "70% effort. Pick the breathing pattern that feels best and stick to it – it sets your rhythm."}
+      - {rest: 30}

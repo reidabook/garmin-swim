@@ -1,0 +1,21 @@
+name: "Example – Aerobic Endurance"
+date: 2026-10-01
+pool: {length: 25, unit: m}
+description: "Long, relaxed strokes. Breathe every 3."
+steps:
+  - {type: warmup, distance: 400, stroke: choice, notes: "easy, mix strokes"}
+  - repeat: 4
+    steps:
+      - {type: drill, distance: 50, stroke: free, equipment: fins, notes: "catch-up drill"}
+      - {rest: 15}
+  - repeat: 4
+    steps:
+      - {type: kick, distance: 50, equipment: kickboard}
+      - {rest: 10}
+  - repeat: 8
+    steps:
+      - {type: swim, distance: 100, stroke: free, notes: "CSS +3s/100"}
+      - {sendoff: "1:55"}
+  - {type: pull, distance: 300, stroke: free, equipment: pull_buoy}
+  - {rest: lap}
+  - {type: cooldown, distance: 200, stroke: back}
